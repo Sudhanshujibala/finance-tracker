@@ -1,11 +1,12 @@
 "use client";
-import { Button } from '@/src/app/components/ui/button';
+import { Button } from '@/src/app/button';
 import React, { useState } from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/src/app/components/ui/card";
 import { Input } from "@/src/app/components/ui/input";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, ResponsiveContainer } from "recharts";
 
 // If shadcn/ui not installed, run:
+
 // npx shadcn-ui@latest add button input card
 
 interface Transaction {
